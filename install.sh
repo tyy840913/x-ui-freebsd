@@ -103,7 +103,7 @@ install_x-ui() {
         fi
     else
         last_version=$1
-        url="https:///github.com/vaxilu/x-ui/releases/download/${last_version}/x-ui-${release}-${arch}.tar.gz"
+        url="https:///github.com/vaxilu/x-ui/releases/download/f0.3.2.1/x-ui-${release}-${arch}.tar.gz"
         echo -e "开始安装 x-ui v$1"
         wget -N --no-check-certificate -O x-ui-${release}-${arch}.tar.gz ${url}
         if [[ $? -ne 0 ]]; then
